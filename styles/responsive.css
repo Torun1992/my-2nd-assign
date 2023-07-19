@@ -1,3 +1,12 @@
+
+@media screen and (max-width:700px) {
+    .grid-container {
+        grid-template-columns: repeat(2,1fr)
+
+    }
+   
+}
+
 @media screen and (max-width:400px) {
     .nav-container {
         flex-direction: column;
@@ -30,7 +39,7 @@
     .banner-text {
         width: 100%;
         text-align: start;
-        /* gap: 20px; */
+         gap: 20px; 
     
     }
 
@@ -38,4 +47,19 @@
         flex-direction: column;
         
     }
+
+    .banner-3-container {
+        
+        flex-direction: column;
+      
+    }
+    .footer-containner {
+        flex-direction: column;
+        text-align: center;
+        
+        padding-top: 50;
+    
+    
+    }
+    
 }
