@@ -107,22 +107,24 @@ font-weight: 700; */
     width: 1400px;
     margin: 50px auto 0;
     display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     align-items: center;
-    /* color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+    text-align: start;
 
 
 }
 
 .banner-text {
     width: 50%;
-    text-align: start;
+    /* text-align: start;
+    align-items: center;  */
     /* gap: 20px; */
 
 }
 
 .h1 {
     color: #0B0223;
-    /* text-align: center; */
+    /* text-align: center;  */
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
@@ -130,7 +132,7 @@ font-weight: 700; */
 }
 
 .h2 {
-    /* text-align: center; */
+    /* text-align: center;  */
     font-size: 95px;
     font-weight: 700;
     text-transform: uppercase;
@@ -144,7 +146,7 @@ font-weight: 700; */
 
 .banner-description {
     color: #534C64;
-    /* text-align: center; */
+    /* text-align: center;  */
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
@@ -192,6 +194,8 @@ font-weight: 700; */
     margin: 50px auto 0;
     display: flex;
     align-items: center;
+    text-align: end;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .banner-img {
@@ -207,7 +211,7 @@ font-weight: 700; */
 
 .banner-text {
     width: 50%;
-    text-align: end;
+    /* text-align: end; */
     /* gap: 20px; */
 
 }
@@ -264,6 +268,65 @@ font-weight: 700; */
 
 }
 
+/* .P{
+    
+    
+} */
+
+/* play section starts */
+
+.banner-3-container {
+    /* background-color: #534C64; */
+    border: 2px solid orangered;
+    min-height: 300px;
+    width: 1400px;
+    margin: 50px auto 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.banner-3-text {
+    width: 50%;
+}
+
+
+
+.banner-3-moto {
+    /* text-align: right; */
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.play-instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-3-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-3-img {
+    width: 50%;
+
+}
+
+.banner-3-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* button section */
 .button-section {
     border: 2px solid red;
@@ -312,27 +375,21 @@ font-weight: 700; */
 /*  button section ends */
 
 /* footer section starts */
-.footer-container {
-    /* background-color: #0B0223; */
+.footer-containner {
     border: 2px solid green;
-    min-height: 300px;
+    min-height: 200px;
     width: 1400px;
     margin: 50px auto 0;
-    display: flex;
-    /* align-items: center; 
-    text-align: center; */
+    background: #0B0223;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 30px;
+
 }
-contain{
-    border: 2px solid red;
-    min-height: 100px;
-    width: 1400px;
-    margin: 50px auto 0;
-    display: flex;
-}
-.sec{
-    border: 2px solid yellow;
-    min-height: 100px;
-    width: 1400px;
-    margin: 50px auto 0;
-    display: flex;
+
+.icons-container {
+    width: 60;
+    height: 40px;
+    color: white;
 }
